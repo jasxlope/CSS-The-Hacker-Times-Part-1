@@ -3,20 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" type='text/css'>
+  <link href="style.css" rel="stylesheet">
   <title>Hacker Times</title>
 </head>
+
+
 <body>
-  <!-- NEWSPAPER CONTAINER -->
-  <div class="newspaper-container">
+
+ <!-- NEWSPAPER CONTAINER Must work on this-->
+<div class="body-container">
+<div class="newspaper-container">
+  </div>
+  <div class="newspaper">
+  </div>
+    <div class="front-page-article">
+    </div>/
+      
+    </body>
+    
     <!-- header -->
     <header>
       <div class="date">JANUARY 1, 1970</div>
-      <h1>The Hacker Times</h1>
+      <div class="title-container">
+        <h1>The Hacker Times</h1>
+        </div>
     </header>
     <!-- navigation -->
     <nav>
-      <ul>
+      <ul class="link-list">
         <li><a href="#">HTML & CSS</a></li>
         <li><a href="#">UX & UI</a></li>
         <li><a href="#">JAVASCRIPT</a></li>
@@ -27,28 +42,78 @@
         <li><a href="#">PYTHON</a></li>
       </ul>
     </nav>
+
+
     <!-- front page article -->
     <main>
-      <h2>Have You Tried Turning It On and Off Again?</h2>
-      <h5>By Maurice Moss</h5>
-      <img src="assets/front-page-article.png" alt="placeholder">
+      <span class="h2"><h2>Have You Tried Turning It On and Off Again?</h2></span>
+      <span class="name"><h5>By Maurice Moss</h5></span>
+      <div class="placeholder">
+      <img src="assets/front-page-article.png" alt="placeholder" >
       <p>
         Cupcake ipsum dolor sit amet. Candy gummies jelly-o pie toffee cheesecake pastry cake. Soufflé sesame snaps tootsie roll jelly-o soufflé tart gummies. Dessert lollipop halvah brownie chocolate bar gingerbread. Lollipop chocolate bar dragée jelly-o cookie tiramisu icing. Dragée muffin marshmallow jelly beans jelly beans. Tootsie roll pie cheesecake. Brownie biscuit gingerbread cupcake sweet roll sweet jelly-o cookie pie. Lemon drops topping lemon drops jelly beans toffee. Tiramisu cotton candy pie toffee cake chocolate cake apple pie. Cupcake bear claw donut apple pie halvah sesame snaps macaroon tootsie roll
-        </p>
+        </p> 
+        </div>
     </main>
+    
+
+
+
     <!-- more articles -->
+  <div class="container">
     <div class="more-articles">
-      <section>
+      <section class="article">
         <h4>Tabs vs. Spaces</h4>
         <img src="assets/article-one.png" alt="placeholder">
-        <p>Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</p>
+        <p>Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi
+          bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly
+          beans soufflé brownie ...</p>
       </section>
-      <section>
+      <section class="article">
         <h4>How Much Caffeine Is Too Much?</h4>
         <img src="assets/article-two.png" alt="placeholder">
-        <p>Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</p>
+        <p>Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi
+          bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly
+          beans soufflé brownie ...</p>
       </section>
     </div>
   </div>
-</body>
-</html>
+  </body>
+
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <div class="footer-section">
+        <h3>About</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Sections</h3>
+        <ul>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Opinion</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Copyright</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Careers</h3>
+        <ul>
+          <li><a href="#">Job Openings</a></li>
+          <li><a href="#">Internships</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  </html>

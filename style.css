@@ -1,1 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+html,
+body {
+  background-color: #ffffff;
+  border: 1px solid #eee; 
+  margin: 5000;
+}
+
+/* MUST WORK ON THIS */
+.body-container {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.newspaper-container {
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 10px; 
+  box-shadow: 0 0 15px #ddd; 
+  background-color: #f1efef; 
+  padding: 0px; /* MUST WORK ON THIS*/
+}
+
+/*This is the title aka"THT"*/
+
+.title-container {
+    text-align: center;
+}
+
+.title-container h1{
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+.title-container{
+    font-size: 23px;
+}
+
+/*Navigation bar section below*/
+
+.link-list {
+    list-style: none;
+    padding: 20;
+    margin: 20;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+
+.link-list li {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin: 10;
+    padding: 20px;
+}
+
+.link-list li a {
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #777;
+}
+
+/*Front article section below*/
+.h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 23px
+}
+
+/* Changing the color and font for the specific name */
+.name {
+    color: red;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 23px;
+}
+
+.placeholder{
+    text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 19px;
+        color: black
+
+}
+
+.placeholder img {
+    display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+
+}
+
+/*More articles section below*/
+.container {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-top: 5px solid #eee;
+    padding-top: 5px;
+    font-size: 20px;
+    color:rgb(0, 0, 0)
+}
+
+.container img {
+    max-width: 450%;
+    height: 150%;
+}
+
+.article {
+    display: inline-block;
+
+    width: 47%;
+    margin: 10px;
+    border: 0px solid #ccc;
+    padding: 60px;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family:"Roboto Slab", sans-serif;
+    font-weight: thick bold;
+    font-size: 21px;
+}
